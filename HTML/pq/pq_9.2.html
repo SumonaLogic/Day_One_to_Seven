@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div>
+            sex :
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">male</label>
+            <input type="radio" name="gender" id="gender">
+           <label for="gender">female</label>
+           <input type="radio" name="gender" id="gender">
+           <label for="gender">others</label>
+        </div>
+        <div>
+            <label for="country">country :</label>
+            <select name="country" id="country"placeholder="select an option">
+                <option value="bd">bangladesh</option>
+                <option value="usa">usa</option>
+                <option value="uk">uk</option>
+                
+            </select>
+        </div>
+        <div>
+            <label for="text">message :</label>        
+            <textarea name="text" id="text" rows="3" cols="10"></textarea>
+           
+        </div>
+        <label for="sub">subscribe</label>
+        <input type="checkbox" name="sub" id="sub">
+       <br>
+       <br>
+        <button>submit</button>
+        
+
+    </form>
+    
+</body>
+</html>
